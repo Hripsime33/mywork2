@@ -1,0 +1,580 @@
+*{
+    margin:0;
+    padding:0;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    background-image: url(/PICTURE/white.jpg);
+    background-repeat:no-repeat;
+    background-size: 103%;
+}
+.arch{
+    width:220px;
+    margin-left: 80px;
+
+}
+header{
+    background-color: rgba(124, 187, 159,0.95);
+    height:170px;
+   
+}
+a{
+    list-style: none;
+    text-decoration: none;
+    margin-top: -150px;
+    font-size: 35px;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(250,250,255);
+}
+ul{
+    display:flex;
+    justify-content: space-around;
+    margin-left: 280px;
+
+}
+ul>li{
+    list-style: none;
+    margin-top: -10px;
+    font-size: 35px;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(250,250,255);
+}
+ul li:hover{
+    transition: 0.2s;
+    cursor: pointer;
+    color:rgba(0, 0, 0, 0.5);
+    transform: scale(1.1);
+}
+
+
+.d1{
+   width:74%;
+   background-color: white;
+   height:300px;
+   margin-top: 150px;
+   border-radius: 50px;
+   margin-left: 260px;
+   border-style: solid;
+   border-color: rgb(198,198,198);
+   
+}
+.img1{
+     width:370px;
+     height:350px;
+     margin-left: 810px;
+     border-radius:50px;
+     margin-top: -70px;
+     box-shadow: 3px 3px 5px 
+}
+
+.a{
+    margin-top: -270px;
+    margin-left: 350px;
+    font-size:40px
+}
+
+.b{
+    margin-left: 10px;
+    margin-top: 30px;
+    font-size: 30px;
+    
+}
+
+.d2{
+    width:98%;
+   background-color: white;
+   height:300px;
+   margin-top: 250px;
+   border-radius: 50px;
+   margin-left: -40px;
+   border-style: solid;
+   border-color: rgb(198,198,198);
+    
+ }
+
+ .img2{
+    width:370px;
+    height:350px;
+    margin-left: -100px;
+    border-radius:50px;
+    margin-top: -70px;
+    box-shadow: 3px 3px 5px 
+}
+.c{
+    margin-top: -270px;
+    margin-left: 450px;
+    font-size:40px
+}
+
+.shenq{
+    margin-left: 300px;
+    margin-top: 50px;
+    font-size: 30px;
+
+}
+
+.d3{
+    width:74%;
+   background-color: white;
+   height:300px;
+   margin-top: 600px;
+   border-radius: 50px;
+   margin-left: 260px;
+   border-style: solid;
+   border-color: rgb(198,198,198);
+}
+
+.e{
+    width:370px;
+     height:350px;
+     margin-left: 810px;
+     border-radius:50px;
+     margin-top: -70px;
+     box-shadow: 3px 3px 5px 
+}
+
+.model{
+    margin-top: -270px;
+    margin-left: 230px;
+    font-size:40px
+}
+
+.shin{
+    margin-left: 20px;
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+.car{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 45px;
+    color:rgb(84,122,105);
+    position: relative;
+    animation: move 5s  infinite;
+}
+  
+  @keyframes move {
+    0% {
+      transform: translateY(50px); /* Սկզբնական դիրքը */
+    }
+   
+    100% {
+      transform: translateY(0px); /* Տողը կտեղափոխվի 100px ներքև */
+    }
+  }
+
+  .icon1{
+    height:100px
+  }
+
+   .flip-card {
+            background-color: transparent;
+            width: 300px;
+            height: 250px;
+            perspective: 1000px; 
+            margin-top: 110px;
+            margin-left: 150px;
+            
+        }
+
+        .flip-card-inner {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            transition: transform 0.8s;
+            transform-style: preserve-3d;
+        }
+
+        .flip-card:hover .flip-card-inner {
+            transform: rotateY(180deg);
+        }
+
+        .flip-card-front,
+        .flip-card-back {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            backface-visibility: hidden; /* Թաքցնում է հակառակ կողմը */
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .flip-card-front {
+            background-image: url('https://via.placeholder.com/300x200');
+            background-size: cover;
+            background-position: center;
+        }
+
+        .flip-card-back {
+            background-color: rgba(130,189,163,0.8);
+            color: #000;
+            transform: rotateY(180deg);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            font-size: 30px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .ic1{
+            width:200px
+        }
+
+        .flip-card1 {
+            background-color: transparent;
+            width: 300px;
+            height: 250px;
+            perspective: 1000px; 
+            margin-top: -280px;
+            margin-left: 680px;
+            
+        }
+
+        .flip-card-inner2 {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            transition: transform 0.8s;
+            transform-style: preserve-3d;
+        }
+
+        .flip-card1:hover .flip-card-inner2 {
+            transform: rotateY(180deg);
+        }
+
+        .flip-card-front3,
+        .flip-card-back4 {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            backface-visibility: hidden; /* Թաքցնում է հակառակ կողմը */
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .flip-card-front3 {
+            background-image: url('https://via.placeholder.com/300x200');
+            background-size: cover;
+            background-position: center;
+        }
+
+        .flip-card-back4 {
+            background-color: rgba(130,189,163,0.8);
+            color: #000;
+            transform: rotateY(180deg);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            font-size: 30px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .ic2{
+            width:300px
+        }
+
+        .flip-card11 {
+            background-color: transparent;
+            width: 300px;
+            height: 250px;
+            perspective: 1000px; 
+            margin-top: -250px;
+            margin-left: 1200px;
+            
+        }
+
+        .flip-card-inner22 {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            transition: transform 0.8s;
+            transform-style: preserve-3d;
+        }
+
+        .flip-card11:hover .flip-card-inner22 {
+            transform: rotateY(180deg);
+        }
+
+        .flip-card-front33,
+        .flip-card-back44 {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            backface-visibility: hidden; /* Թաքցնում է հակառակ կողմը */
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .flip-card-front33 {
+            background-image: url('https://via.placeholder.com/300x200');
+            background-size: cover;
+            background-position: center;
+        }
+
+        .flip-card-back44 {
+            background-color: rgba(130,189,163,0.8);
+            color: #000;
+            transform: rotateY(180deg);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            font-size: 30px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .ic3{
+            width:300px
+        }
+        
+        .flip-card01 {
+            background-color: transparent;
+            width: 300px;
+            height: 250px;
+            perspective: 1000px; 
+            margin-top: 100px;
+            margin-left: 400px;
+            
+        }
+
+        .flip-card-inner02 {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            transition: transform 0.8s;
+            transform-style: preserve-3d;
+        }
+
+        .flip-card01:hover .flip-card-inner02 {
+            transform: rotateY(180deg);
+        }
+
+        .flip-card-front03,
+        .flip-card-back04 {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            backface-visibility: hidden; /* Թաքցնում է հակառակ կողմը */
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .flip-card-front03 {
+            background-image: url('https://via.placeholder.com/300x200');
+            background-size: cover;
+            background-position: center;
+        }
+
+        .flip-card-back04 {
+            background-color: rgba(130,189,163,0.8);
+            color: #000;
+            transform: rotateY(180deg);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            font-size: 30px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .i4{
+            width:300px
+        }
+
+        .flip-card011 {
+            background-color: transparent;
+            width: 300px;
+            height: 250px;
+            perspective: 1000px; 
+            margin-top: -250px;
+            margin-left: 950px;
+            
+        }
+
+        .flip-card-inner022 {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            transition: transform 0.8s;
+            transform-style: preserve-3d;
+        }
+
+        .flip-card011:hover .flip-card-inner022 {
+            transform: rotateY(180deg);
+        }
+
+        .flip-card-front033,
+        .flip-card-back044 {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            backface-visibility: hidden; /* Թաքցնում է հակառակ կողմը */
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .flip-card-front033 {
+            background-image: url('https://via.placeholder.com/300x200');
+            background-size: cover;
+            background-position: center;
+        }
+
+        .flip-card-back044 {
+            background-color: rgba(130,189,163,0.8);
+            color: #000;
+            transform: rotateY(180deg);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            font-size: 30px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .i5{
+            width:290px
+        }
+
+        
+.why{
+    width:1670px;
+    height:2300px;
+    top: 50px;
+    
+}
+
+.licen{
+    position: absolute;
+    width:85%;
+    background-color: white;
+    height:600px;
+    margin-top: -1500px;
+    left: 150px;
+    border-style: solid;
+    border-color: rgb(139,139,139);
+    box-shadow: 1px 2px 8px gray;
+    z-index: 0
+}
+.licenia{
+    position:absolute;
+    height:700px;
+    margin-top: -700px;
+    margin-left: 180px;
+    box-shadow: 1px -5px 1px gray;
+}
+.tun{
+    height:600px;
+  
+}
+.masin{
+    position: absolute;
+    left:730px;
+    font-size:33px;
+    top:0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align:center
+}
+
+.foot{
+    background-color: rgba(139,139,139,0.8);
+    height:700px;
+    margin-top: -700px;
+    position: relative;
+    z-index:0
+}
+
+.kap{
+    color:white;
+    font-size:50px;
+    text-shadow:1px 2px 5px;
+    text-align: center;
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 650px;
+}
+
+.i1{
+    width:50px;
+    margin-top: 240px;
+    margin-left: 150px;
+    
+    
+}
+.i1p{
+    margin-left: 200px;
+    margin-top: -45px;
+    font-size:28px;
+    color:white
+}
+
+.i2{
+    width:40px;
+    margin-left: 150px;
+    margin-top: 40px;
+}
+
+.i2p{
+    margin-left: 200px;
+    margin-top: -43px;
+    font-size:30px;
+    color:white
+}
+
+.i3{
+    width:40px;
+    margin-left: 150px;
+    margin-top: -200px;
+}
+.tel{
+    margin-left: 200px;
+    margin-top: -275px;
+    font-size:28px;
+    color:white
+}
+.gay{
+    margin-left: 155px;
+    margin-top: 40px;
+    font-size:30px;
+    color:white
+}
+
+.map{
+    margin-left: 1000px;
+    margin-top: -230px;
+}
+
+.lss{
+    color:rgb(93, 235, 171);
+    font-size:40px;
+    margin-left: 200px;
+    margin-top: -80px;
+}
+
+
+.uxx{
+    height:8px;
+    background-color: rgba(125, 206, 169, 0.95);
+    width:40%;
+    margin-top: 20px;
+}
+
+
+.verjin{
+    margin-left: 20px;
+    font-size: 20px;
+    margin-top:15px;
+}
+
